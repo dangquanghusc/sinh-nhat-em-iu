@@ -1,0 +1,33 @@
+.parent{
+    position: relative;
+}
+
+.above-fold{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.above-fold-befor{
+    position: absolute;
+    animation: example;
+    transform: translate(45%, -135%);
+    animation-duration: 4s;
+    top: 95%;
+    left: 0%;
+}
+
+@keyframes example {
+    0%   {top: 50%;left: 0%;}
+    /* 10%  {top: 55%;left: 0%;}
+    20%  {top: 60%;left: 0%;}
+    30%  {top: 65%;left: 0%;}
+    40%  {top: 70%;left: 0%;}
+    50%  {top: 75%;left: 0%;}
+    60%  {top: 80%;left: 0%;}
+    70%  {top: 85%;left: 0%;}
+    80%  {top: 90%;left: 0%;}
+    90%  {top: 92%;left: 0%;} */
+    100%  {top: 95%;left: 0%;}
+  }
